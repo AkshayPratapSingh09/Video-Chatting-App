@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const {Server} = require('socket.io');
 const express = require('express');
 const FS = require('fs');
+const react = require('react');
 
 const io = new Server();
 const app = express();
